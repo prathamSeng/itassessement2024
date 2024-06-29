@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ITASSIGNMENT2024</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: #111010;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu .logo a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.menu ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+main h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+}
+
+.gallery a img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.center {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.title {
+    font-size: 2.5em;
+}
+
+footer {
+    background-color: #111010;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.footer-content h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.footer-content p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.footer-content p a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.social-icons a i {
+    font-size: 1.5em;
+}
+
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="menu">
+            <div class="logo">
+                <a href="#">PRATHAM</a>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <section>
+            <h1>Gallery</h1>
+            <div class="gallery">
+                <a href="second.jpg"><img src="second.jpg" alt="Image 1"></a>
+                <a href="first.jpg"><img src="first.jpg" alt="Image 2"></a>
+                <a href="eighth.jpg"><img src="eighth.jpg" alt="Image 3"></a>
+                <a href="seventh.jpg"><img src="seventh.jpg" alt="Image 4"></a>
+                <a href="sixth.jpg"><img src="sixth.jpg" alt="Image 5"></a>
+                <a href="fifth.jpg"><img src="fifth.jpg" alt="Image 6"></a>
+                <a href="fourth.jpg"><img src="fourth.jpg" alt="Image 7"></a>
+                <a href="third.jpg"><img src="third.jpg" alt="Image 8"></a>
+            </div>
+        </section>
+    </main>
+    <div class="center">
+        <div class="title">WELCOME TO GALLERY</div>
+    </div>
+    <footer>
+        <div class="footer-content">
+            <h1>PRATHAM</h1>
+            <p>
+                <a href="#">Terms</a>
+                <a href="#">Privacy</a>
+                <a href="#">Contact</a>
+                <a href="#">Manage cookies</a>
+            </p>
+            <div class="social-icons">
+                <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-google-plus-g"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
